@@ -1,0 +1,2 @@
+# kaffeestatus
+Get coffeestatus.
