@@ -60,7 +60,7 @@ function fkey(e){
 <?php if(isset($_GET['live'])) { ?>
 
 var localStatus = <?php echo $maschine_an ? "true" : "false"; ?>;
-var audio = new Audio('buzzer.mp3');
+var audio = new Audio('alert.mp3');
 
 document.addEventListener("DOMContentLoaded", () => {
   getStatus();
